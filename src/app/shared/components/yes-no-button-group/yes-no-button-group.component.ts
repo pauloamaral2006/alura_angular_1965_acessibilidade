@@ -7,6 +7,7 @@ import {
   Output,
 } from '@angular/core';
 import { ControlValueAccessor, NG_VALUE_ACCESSOR } from '@angular/forms';
+import { UniqueIdService } from '../../services/unique-id/unique-id.service';
 
 @Component({
   selector: 'app-yes-no-button-group',
@@ -27,7 +28,10 @@ export class YesNoButtonGroupComponent implements OnInit, ControlValueAccessor {
   public options = YesNoButtonGroupOptions;
   public onCgange = (value: string) => {};
   public onTouched = () => {};
-  constructor() {}
+  public id: string = null;
+  constructor(uniqueIdService: UniqueIdService) {
+    this.id = uniqueIdService.generateUniqueIdWithPrefix('yes-no-button-group');
+  }
   public writeValue(value: string): void {
     this.value = value;
     this.onCgange(this.value);
