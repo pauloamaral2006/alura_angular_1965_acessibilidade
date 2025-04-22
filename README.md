@@ -1,27 +1,27 @@
-# A11yP1
+# YesNo
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.0.
+## ℹ️ Sobre
 
-## Development server
+<p>Projeto utilizado no curso para aprendizado das técnicas e melhores práticas.</p>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## 📘Ementa
 
-## Code scaffolding
+### Angular: design de componentes com acessibilidade
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Aprender a utilizar leitores de tela
+- Entender e aplicar regras da WCAG
+- Avançar no uso de diretivas
+- Integrar o seu componente com Reactive Forms
 
-## Build
+## 🖥️ Tecnologias
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+<div>
+  <img src="https://img.shields.io/badge/HTML-%23E34F26.svg?logo=html5&logoColor=white">
+  <img src="https://img.shields.io/badge/CSS-1572B6?logo=css3&logoColor=fff">
+  <img src="https://img.shields.io/badge/Angular-%23DD0031.svg?logo=angular&logoColor=white">
+</div>
 
-## Running unit tests
+## 🧑‍🏫 Instrutor(es)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+| [<img loading="lazy" src="https://www.gravatar.com/avatar/8d96063c612c7c23fd0ced5142c8a9aa.png?r=PG&size=100x100&date=2025-04-22&d=https%3A%2F%2Fcursos.alura.com.br%2Fassets%2Fimages%2Fforum%2Favatar_f.png" width=115><br><sub>Flavio Henrique de Souza Almeida</sub>] |
+| :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
